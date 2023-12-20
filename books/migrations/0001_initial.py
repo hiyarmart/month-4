@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
                 ('book_description', models.TextField()),
                 ('book_image', models.ImageField(upload_to='')),
                 ('book_price', models.FloatField()),
-                 ('book_author', models.CharField(max_length=100)),
+                ('book_author', models.CharField(max_length=100)),
                 ('book_created_at', models.DateTimeField(auto_now_add=True)),
             ],
         ),
