@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% include 'shows/header.html' %}
 <h1>Подробнее об {{show_id.title}}</h1>
 <p>{{show_id.description}}</p>
 <img src="{{show_id.image.url}}" alt="">
@@ -13,5 +7,4 @@
 <p>{{show_id.price}}</p>
 <a href="{{show_id.trailer}}">перейти по ссылке</a>
 <p>{{show_id.created_ad}}</p>
-</body>
-</html>
+{% include 'shows/footer.html' %}
